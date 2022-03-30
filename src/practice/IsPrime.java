@@ -1,4 +1,4 @@
-package misc;
+package practice;
 
 public class IsPrime {
     public static boolean isPrime(int n) {

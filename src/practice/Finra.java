@@ -1,4 +1,4 @@
-package misc;
+package practice;
 
 public class Finra {
     //write a method that finds number divisible by 5

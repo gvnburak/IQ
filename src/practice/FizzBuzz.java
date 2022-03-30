@@ -1,4 +1,4 @@
-package misc;
+package practice;
 
 public class FizzBuzz {
     //write a method which finds numbers divisible by 3 and 5
