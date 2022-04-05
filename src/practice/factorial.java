@@ -1,4 +1,4 @@
-package misc;
+package practice;
 
 public class factorial {
     //create a method to calculate the factorial of a number

@@ -1,4 +1,4 @@
-package misc;
+package practice;
 
 public class FrequencyOfString {
     public static void main(String[] args) {
