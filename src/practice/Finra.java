@@ -18,12 +18,18 @@ public class Finra {
         }
     }
 
+
+
     public static void main(String[] args) {
         finra(5);
         finra(3);
         finra(15);
         finra(7);
         finra(9);
+
+        for (int i = 1; i <=100 ; i++) {
+            finra(i);
+        }
     }
 }
 

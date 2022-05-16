@@ -2,17 +2,17 @@ package practice;
 
 public class reverseString {
 
+    //reverse a string
     public static void main(String[] args) {
-        String s = "Hello World";
-        System.out.println(reverse(s));
+        String str = "Hello World";
+        System.out.println(reverse(str));
     }
-
-    public static String reverse(String s) {
-        StringBuilder sb = new StringBuilder();
-        for (int i = s.length() - 1; i >= 0; i--) {
-            sb.append(s.charAt(i));
+    public static String reverse(String str) {
+        String reverse = "";
+        for (int i = str.length() - 1; i >= 0; i--) {
+            reverse += str.charAt(i);
         }
-        return sb.toString();
+        return reverse;
     }
 }
 

@@ -11,7 +11,7 @@ public class Anagram {
         if (s1.length() != s2.length()) {
             return false;
         }
-        int[] count = new int[26];
+        int[] count = new int[128];
         for (int i = 0; i < s1.length(); i++) {
             count[s1.charAt(i) - 'a']++;
         }
